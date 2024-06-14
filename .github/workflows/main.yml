@@ -2,7 +2,7 @@ name: Update and Commit Feed Cache
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    - cron: '0 0,7 0-3 ? * * *' # Runs every hour
   workflow_dispatch:
   push:
     branches:
