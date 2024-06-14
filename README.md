@@ -1,5 +1,10 @@
 # testingtorsstg
 
+Settings > Actions > General > Read and write permissions
+
+
+## Config
+
 ADD SECRETS
 
 TELEGRAM_BOT_TOKEN="your_telegram_bot_token"
