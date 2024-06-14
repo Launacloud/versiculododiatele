@@ -9,10 +9,6 @@ TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 RSS_FEED_URL = os.getenv('RSS_FEED_URL')
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
-# Validate environment variables
-if not TELEGRAM_BOT_TOKEN or not RSS_FEED_URL or not CHAT_ID:
-    raise ValueError("TELEGRAM_BOT_TOKEN, RSS_FEED_URL, and TELEGRAM_CHAT_ID must be set")
-
 # Cache file path
 CACHE_FILE_PATH = 'feed_cache.json'
 
@@ -55,10 +51,10 @@ def fetch_rss_feed(etag=None, modified=None):
         headers['If-None-Match'] = etag
     if modified:
         headers['If-Modified-Since'] = modified
-
+    
     response = requests.get(RSS_FEED_URL, headers=headers)
     response.raise_for_status()
-
+    
     feed = feedparser.parse(response.content)
     feed.status = response.status_code
     return feed
@@ -87,23 +83,22 @@ def send_rss_to_telegram():
         cache['modified'] = feed.modified
 
     new_entries = []
+    stop_processing = False
     for entry in reversed(feed.entries):  # Process entries in reverse order
         entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
-        
-        # Skip processing if entry_id matches last_entry_id
-        if last_entry_id and entry_id == last_entry_id:
-            print(f"Skipping processing for entry with id: {entry_id} as it matches last processed entry.")
-            continue
-        
         print(f"Processing entry with id: {entry_id}")
+        if last_entry_id and entry_id == last_entry_id:
+            print(f"Found the last processed entry with id: {entry_id}. Stopping further collection.")
+            stop_processing = True
+            break  # Stop processing further entries once the last processed entry is found
         new_entries.append(entry)
 
     if not new_entries:
         print("No new entries to process.")
         return
 
-    # Process entries in reverse order to handle newer entries first
-    for entry in reversed(new_entries):
+    # Process entries in the original order to handle older entries first
+    for entry in new_entries:
         entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
         title = entry.title
         link = entry.get('link', entry.get('url'))  # Get link or url
