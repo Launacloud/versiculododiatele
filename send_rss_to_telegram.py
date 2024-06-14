@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 # Load environment variables
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-RSS_FEED_URLS = os.getenv('RSS_FEED_URLS')
+RSS_FEED_URL = os.getenv('RSS_FEED_URL')
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
 # Cache file path
