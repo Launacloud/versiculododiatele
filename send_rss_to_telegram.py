@@ -93,15 +93,12 @@ def send_rss_to_telegram():
             break
         new_entries.append(entry)
 
-    if stop_processing:
-        new_entries.reverse()  # Reverse to process new entries in correct order
-
     if not new_entries:
         print("No new entries to process.")
         return
 
     # Process new entries
-    for entry in new_entries:
+    for entry in reversed(new_entries):  # Process new entries in correct order
         entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
         title = entry.title
         link = entry.get('link', entry.get('url'))  # Get link or url
