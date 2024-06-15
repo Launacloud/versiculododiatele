@@ -1,8 +1,8 @@
+from bs4 import BeautifulSoup
 import os
 import requests
 import feedparser
 import json
-from bs4 import BeautifulSoup
 
 # Load environment variables
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
@@ -84,20 +84,23 @@ def send_rss_to_telegram():
 
     new_entries = []
     stop_processing = False
-    for entry in reversed(feed.entries):  # Process entries in reverse order
+    for entry in feed.entries:  # Process entries in original order
         entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
         print(f"Processing entry with id: {entry_id}")
         if last_entry_id and entry_id == last_entry_id:
             print(f"Found the last processed entry with id: {entry_id}. Stopping further collection.")
             stop_processing = True
-            break  # Stop processing further entries once the last processed entry is found
+            break
         new_entries.append(entry)
+
+    if stop_processing:
+        new_entries.reverse()  # Reverse to process new entries in correct order
 
     if not new_entries:
         print("No new entries to process.")
         return
 
-    # Process entries in the original order to handle older entries first
+    # Process new entries
     for entry in new_entries:
         entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
         title = entry.title
