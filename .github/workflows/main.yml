@@ -36,17 +36,18 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-    - name: Commit changes
+    - name: Pull latest changes
+      run: git pull origin main
+
+    - name: Commit and Push if Changes
       run: |
         if [[ `git status --porcelain` ]]; then
           git add feed_cache.json
           git commit -m "Update and Commit Feed Cache"
           git push origin main
-        else
-          echo "No changes to commit"
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
