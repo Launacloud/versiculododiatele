@@ -10,16 +10,24 @@ TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 RSS_FEED_URL = os.getenv('RSS_FEED_URL')
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
+# Check if environment variables are set
+if not TELEGRAM_BOT_TOKEN or not RSS_FEED_URL or not CHAT_ID:
+    raise ValueError("Please set TELEGRAM_BOT_TOKEN, RSS_FEED_URL, and TELEGRAM_CHAT_ID environment variables.")
+
 # Cache file path
 CACHE_FILE_PATH = 'feed_cache.json'
 
 # Function to load cache from the file
 def load_cache():
     if os.path.exists(CACHE_FILE_PATH):
-        with open(CACHE_FILE_PATH, 'r') as file:
-            cache = json.load(file)
-            print(f"Cache loaded from file: {CACHE_FILE_PATH}")
-            return cache
+        try:
+            with open(CACHE_FILE_PATH, 'r') as file:
+                cache = json.load(file)
+                print(f"Cache loaded from file: {CACHE_FILE_PATH}")
+                return cache
+        except json.JSONDecodeError:
+            print("Invalid JSON in cache file. Starting with an empty cache.")
+            return {"etag": "", "modified": "", "last_entry_id": ""}
     else:
         print("No cache file found. Starting with an empty cache.")
         return {"etag": "", "modified": "", "last_entry_id": ""}
@@ -60,7 +68,7 @@ def create_feed_checker(feed_url):
         if response.status_code == 304:
             print("Feed not modified since last check.")
             return
-        
+
         feed = feedparser.parse(response.content)
 
         if 'etag' in response.headers:
@@ -115,8 +123,11 @@ def create_feed_checker(feed_url):
 
 # Main function
 def main():
-    check_feed = create_feed_checker(RSS_FEED_URL)
-    check_feed()
+    try:
+        check_feed = create_feed_checker(RSS_FEED_URL)
+        check_feed()
+    except Exception as e:
+        print(f"Unexpected error: {e}")
 
 if __name__ == "__main__":
     main()
