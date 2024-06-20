@@ -1,4 +1,4 @@
-# testingtorsstg
+# versiculo do dia telegram
 
 Settings > Actions > General > Read and write permissions
 
