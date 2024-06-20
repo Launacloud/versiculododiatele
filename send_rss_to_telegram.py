@@ -51,13 +51,20 @@ def create_feed_checker(feed_url):
         cache = load_cache()
         feed = feedparser.parse(feed_url)
 
-        for entry in reversed(feed.entries):  # Check entries in reverse order
+        new_entries = []
+        for entry in feed.entries:
             entry_id = entry.get('id', entry.get('link')).strip()
             
             # Check if entry_id already exists in the cache
-            if cache.get(entry_id):
-                print(f"Skipping duplicate entry with id: {entry_id}")
-                continue
+            if entry_id not in cache:
+                new_entries.append(entry)
+
+        if not new_entries:
+            print("No new entries to process.")
+            return
+
+        for entry in reversed(new_entries):  # Process new entries in reverse order
+            entry_id = entry.get('id', entry.get('link')).strip()
 
             title = entry.title
             link = entry.get('link', entry.get('url'))
