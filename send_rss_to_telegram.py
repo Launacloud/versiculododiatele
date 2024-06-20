@@ -22,7 +22,7 @@ def load_cache():
             return cache
     else:
         print("No cache file found. Starting with an empty cache.")
-        return {}
+        return {"etag": "", "modified": "", "last_entry_id": ""}
 
 # Function to save cache to the file
 def save_cache(cache):
@@ -49,8 +49,25 @@ def send_telegram_message(message):
 def create_feed_checker(feed_url):
     def check_feed():
         cache = load_cache()
-        feed = feedparser.parse(feed_url)
+        
+        headers = {}
+        if cache["etag"]:
+            headers['If-None-Match'] = cache["etag"]
+        if cache["modified"]:
+            headers['If-Modified-Since'] = cache["modified"]
 
+        response = requests.get(feed_url, headers=headers)
+        if response.status_code == 304:
+            print("Feed not modified since last check.")
+            return
+        
+        feed = feedparser.parse(response.content)
+
+        if 'etag' in response.headers:
+            cache["etag"] = response.headers['etag']
+        if 'last-modified' in response.headers:
+            cache["modified"] = response.headers['last-modified']
+        
         new_entries = []
         for entry in feed.entries:
             entry_id = entry.get('id', entry.get('link')).strip()
@@ -88,6 +105,11 @@ def create_feed_checker(feed_url):
                 save_cache(cache)
             except Exception as e:
                 print(f"Error: {e}")
+
+        if new_entries:
+            last_entry = new_entries[-1]
+            cache["last_entry_id"] = last_entry.get('id', last_entry.get('link')).strip()
+            save_cache(cache)
 
     return check_feed
 
