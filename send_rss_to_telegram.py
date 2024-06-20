@@ -81,6 +81,9 @@ def send_rss_to_telegram():
         print("No new entries.")
         return
 
+    print(f"New etag: {feed.etag}")
+    print(f"New modified: {feed.modified}")
+
     # Update cache with new etag and modified values if they exist in the feed
     if feed.etag:
         cache['etag'] = feed.etag
@@ -88,9 +91,11 @@ def send_rss_to_telegram():
         cache['modified'] = feed.modified
 
     new_entries = []
-    for entry in feed.entries:
+    for entry in reversed(feed.entries):  # Process entries in reverse order
         entry_id = entry.get('id', entry.get('link')).strip()
+        print(f"Processing entry with id: {entry_id}")
         if last_entry_id and entry_id == last_entry_id:
+            print(f"Found the last processed entry with id: {entry_id}. Stopping further collection.")
             break
         new_entries.append(entry)
 
@@ -98,7 +103,7 @@ def send_rss_to_telegram():
         print("No new entries to process.")
         return
 
-    for entry in reversed(new_entries):
+    for entry in reversed(new_entries):  # Send new entries in correct order
         entry_id = entry.get('id', entry.get('link')).strip()
         title = entry.title
         link = entry.get('link', entry.get('url'))
