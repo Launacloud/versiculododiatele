@@ -57,6 +57,11 @@ def fetch_rss_feed(etag=None, modified=None):
     
     feed = feedparser.parse(response.content)
     feed.status = response.status_code
+    
+    # Extract etag and last-modified from the response headers
+    feed.etag = response.headers.get('ETag')
+    feed.modified = response.headers.get('Last-Modified')
+    
     return feed
 
 # Function to send RSS feed items to Telegram
@@ -77,19 +82,15 @@ def send_rss_to_telegram():
         return
 
     # Update cache with new etag and modified values if they exist in the feed
-    if 'etag' in feed:
+    if feed.etag:
         cache['etag'] = feed.etag
-    if 'modified' in feed:
+    if feed.modified:
         cache['modified'] = feed.modified
 
     new_entries = []
-    stop_processing = False
-    for entry in feed.entries:  # Process entries in original order
-        entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
-        print(f"Processing entry with id: {entry_id}")
+    for entry in feed.entries:
+        entry_id = entry.get('id', entry.get('link')).strip()
         if last_entry_id and entry_id == last_entry_id:
-            print(f"Found the last processed entry with id: {entry_id}. Stopping further collection.")
-            stop_processing = True
             break
         new_entries.append(entry)
 
@@ -97,17 +98,15 @@ def send_rss_to_telegram():
         print("No new entries to process.")
         return
 
-    # Process new entries
-    for entry in reversed(new_entries):  # Process new entries in correct order
-        entry_id = entry.get('id', entry.get('link')).strip()  # Use link if id is not present and strip whitespace
+    for entry in reversed(new_entries):
+        entry_id = entry.get('id', entry.get('link')).strip()
         title = entry.title
-        link = entry.get('link', entry.get('url'))  # Get link or url
-        description = entry.get('content_html', entry.get('description'))  # Get content_html or description
+        link = entry.get('link', entry.get('url'))
+        description = entry.get('content_html', entry.get('description'))
 
-        # Use BeautifulSoup to extract text from HTML description and filter out unsupported tags
         if description:
             soup = BeautifulSoup(description, 'html.parser')
-            supported_tags = ['b', 'i', 'a']  # Supported tags: bold, italic, anchor
+            supported_tags = ['b', 'i', 'a']
             for tag in soup.find_all():
                 if tag.name not in supported_tags:
                     tag.decompose()
@@ -115,18 +114,11 @@ def send_rss_to_telegram():
         else:
             description_text = "No description available."
 
-        print(f"Title: {title}")
-        print(f"Link: {link}")
-        print(f"Description: {description_text}")
-
         message = f"<b>{title}</b>\n<a href='{link}'>{link}</a>\n\n{description_text}"
         send_telegram_message(message)
-        print(f"Message sent: {title}")
 
-        # Update last_entry_id in cache after sending the message
         cache['last_entry_id'] = entry_id
 
-    # Save cache if there are new entries
     save_cache(cache)
 
 # Main function
