@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"8e9e31500a868040f3b8bada58ee5a048458ba759afb12722fd66a996c7f251f\"",
+    "etag": "W/\"298fbf553cdf676baa81c56af984743a0b14f7564465cef8abf63d727ad85469\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_49_20/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_26_6-7/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -30,5 +30,6 @@
     "https://www.bibliaon.com/versiculo/miqueias_7_7/": true,
     "https://www.bibliaon.com/versiculo/romanos_8_18/": true,
     "https://www.bibliaon.com/versiculo/hebreus_13_15/": true,
-    "https://www.bibliaon.com/versiculo/salmos_49_20/": true
+    "https://www.bibliaon.com/versiculo/salmos_49_20/": true,
+    "https://www.bibliaon.com/versiculo/salmos_26_6-7/": true
 }
