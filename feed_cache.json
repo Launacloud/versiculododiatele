@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"e8164c8d0cf0e5f4a00abedd4dba0cb9cd9fdf426cf7972cd71c26e6459b46df\"",
+    "etag": "W/\"1bb3462977b31cc3551f2b032111dc674db0e0db8edff2ee6b28d57ff2bad39b\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/galatas_6_9/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/tito_3_9/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -42,5 +42,6 @@
     "https://www.bibliaon.com/versiculo/deuteronomio_10_21/": true,
     "https://www.bibliaon.com/versiculo/sofonias_3_15/": true,
     "https://www.bibliaon.com/versiculo/romanos_10_9/": true,
-    "https://www.bibliaon.com/versiculo/galatas_6_9/": true
+    "https://www.bibliaon.com/versiculo/galatas_6_9/": true,
+    "https://www.bibliaon.com/versiculo/tito_3_9/": true
 }
