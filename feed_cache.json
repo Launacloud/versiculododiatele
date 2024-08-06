@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"66f49087806a5ed6fb722e8a9bbdb4d2f92214dca27e8923b892f8275b5967cc\"",
+    "etag": "W/\"f1f00279dd6c222a6b89478f6c73c8c080149606fe9dfc160f2641b45f863b64\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/exodo_20_20/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_121_1-2/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -60,5 +60,6 @@
     "https://www.bibliaon.com/versiculo/romanos_11_36/": true,
     "https://www.bibliaon.com/versiculo/genesis_1_2/": true,
     "https://www.bibliaon.com/versiculo/lamentacoes_de_jeremias_2_19/": true,
-    "https://www.bibliaon.com/versiculo/exodo_20_20/": true
+    "https://www.bibliaon.com/versiculo/exodo_20_20/": true,
+    "https://www.bibliaon.com/versiculo/salmos_121_1-2/": true
 }
