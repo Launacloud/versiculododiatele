@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"8147e55742ea9fda18374bbf82866086ec7087d7aa47d799d2a382371ddafd42\"",
+    "etag": "W/\"4eab1a807f7f0bde87d4e93ba897c28e48fa69ce7e1bc6f7dec02a68d6a7b4e1\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/eclesiastes_5_5/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/eclesiastes_3_1/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -70,5 +70,6 @@
     "https://www.bibliaon.com/versiculo/romanos_12_21/": true,
     "https://www.bibliaon.com/versiculo/romanos_12_9-10/": true,
     "https://www.bibliaon.com/versiculo/lucas_7_47/": true,
-    "https://www.bibliaon.com/versiculo/eclesiastes_5_5/": true
+    "https://www.bibliaon.com/versiculo/eclesiastes_5_5/": true,
+    "https://www.bibliaon.com/versiculo/eclesiastes_3_1/": true
 }
