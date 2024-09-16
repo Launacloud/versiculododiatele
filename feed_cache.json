@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"8509fe61f4a7cee212c2b34da17c35499b94911ae81b2e60f4fb8a1cf274fb64\"",
+    "etag": "W/\"b158605bbdc9217b49caa3d9c2cc97904c8dfdd6db6a7911ff4ad56c20449d60\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/efesios_1_3/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/colossenses_1_16/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -101,5 +101,6 @@
     "https://www.bibliaon.com/versiculo/joao_6_35/": true,
     "https://www.bibliaon.com/versiculo/salmos_133_1/": true,
     "https://www.bibliaon.com/versiculo/marcos_11_25-26/": true,
-    "https://www.bibliaon.com/versiculo/efesios_1_3/": true
+    "https://www.bibliaon.com/versiculo/efesios_1_3/": true,
+    "https://www.bibliaon.com/versiculo/colossenses_1_16/": true
 }
