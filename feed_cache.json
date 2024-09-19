@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"3db7f71f3847f1414445ba52988030410536355baa13f8eeb5c791291ed8b2f5\"",
+    "etag": "W/\"050cc48441479365e91af13d06b3643cb393828817dc210c6e3593742ca4238b\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/1_joao_4_19-20/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/malaquias_3_6/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -104,5 +104,6 @@
     "https://www.bibliaon.com/versiculo/efesios_1_3/": true,
     "https://www.bibliaon.com/versiculo/colossenses_1_16/": true,
     "https://www.bibliaon.com/versiculo/eclesiastes_9_9/": true,
-    "https://www.bibliaon.com/versiculo/1_joao_4_19-20/": true
+    "https://www.bibliaon.com/versiculo/1_joao_4_19-20/": true,
+    "https://www.bibliaon.com/versiculo/malaquias_3_6/": true
 }
