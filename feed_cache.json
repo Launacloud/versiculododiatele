@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"026f4dbaaccdbfa514386fda4b1a3408532934e5cd195bfc7aafde597c93f297\"",
+    "etag": "W/\"367ace1d126a62d86eca890f5a4cf9124b2584d292dc1e647933b20a6e8636b8\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/levitico_19_11/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_55_22/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -110,5 +110,6 @@
     "https://www.bibliaon.com/versiculo/judas_1_20-21/": true,
     "https://www.bibliaon.com/versiculo/amos_3_3/": true,
     "https://www.bibliaon.com/versiculo/oseias_11_4/": true,
-    "https://www.bibliaon.com/versiculo/levitico_19_11/": true
+    "https://www.bibliaon.com/versiculo/levitico_19_11/": true,
+    "https://www.bibliaon.com/versiculo/salmos_55_22/": true
 }
