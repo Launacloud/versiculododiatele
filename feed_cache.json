@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"3caf1c47a276895cd304a456192dcff4689e44e9be2c235a4d332b89158365cf\"",
+    "etag": "W/\"4a0737f4dc35cdd798a7671b73639b3b3295b668160da66dc50eea4fc23ce7ed\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/1_tessalonicenses_5_16-23/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/apocalipse_2_4-5/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -131,5 +131,6 @@
     "https://www.bibliaon.com/versiculo/1_joao_3_1/": true,
     "https://www.bibliaon.com/versiculo/1_joao_2_12/": true,
     "https://www.bibliaon.com/versiculo/1_joao_2_14/": true,
-    "https://www.bibliaon.com/versiculo/1_tessalonicenses_5_16-23/": true
+    "https://www.bibliaon.com/versiculo/1_tessalonicenses_5_16-23/": true,
+    "https://www.bibliaon.com/versiculo/apocalipse_2_4-5/": true
 }
