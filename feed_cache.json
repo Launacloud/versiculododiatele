@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"3c5c78c2ccf84f15e8e07511676abc159329f4829e085cd9c523ed385cecaacf\"",
+    "etag": "W/\"f272ac38056544a5d314257a662776b04a7cec9d281931028b35885eeff8184c\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/isaias_6_8/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/galatas_6_10/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -162,5 +162,6 @@
     "https://www.bibliaon.com/versiculo/2_pedro_1_10/": true,
     "https://www.bibliaon.com/versiculo/romanos_8_26-27/": true,
     "https://www.bibliaon.com/versiculo/hebreus_11_1/": true,
-    "https://www.bibliaon.com/versiculo/isaias_6_8/": true
+    "https://www.bibliaon.com/versiculo/isaias_6_8/": true,
+    "https://www.bibliaon.com/versiculo/galatas_6_10/": true
 }
