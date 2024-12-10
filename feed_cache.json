@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"9b42162f601f8039f2070a77f74cd090306dd90b64398cdc1546354267316bd5\"",
+    "etag": "W/\"b7093c0ec5f72a83a96de18d3cab894ab25db0c96b26ac25de2725f249f9531c\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/hebreus_3_1-2/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/isaias_40_29-31/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -185,5 +185,6 @@
     "https://www.bibliaon.com/versiculo/jonas_2_9/": true,
     "https://www.bibliaon.com/versiculo/efesios_2_10/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_15_20/": true,
-    "https://www.bibliaon.com/versiculo/hebreus_3_1-2/": true
+    "https://www.bibliaon.com/versiculo/hebreus_3_1-2/": true,
+    "https://www.bibliaon.com/versiculo/isaias_40_29-31/": true
 }
