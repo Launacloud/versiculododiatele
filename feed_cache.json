@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"ee9cb1a141267e66a8a34455c7be8c01c153f47d0ce046bbb17681d92220f368\"",
+    "etag": "W/\"c89307808811e71d4cd5fc87339308688f2dbb6c9e9888be843da3aeeec4d946\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/exodo_20_15/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/proverbios_14_30/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -193,5 +193,6 @@
     "https://www.bibliaon.com/versiculo/hebreus_12_6/": true,
     "https://www.bibliaon.com/versiculo/filipenses_4_6-7/": true,
     "https://www.bibliaon.com/versiculo/isaias_40_29-30/": true,
-    "https://www.bibliaon.com/versiculo/exodo_20_15/": true
+    "https://www.bibliaon.com/versiculo/exodo_20_15/": true,
+    "https://www.bibliaon.com/versiculo/proverbios_14_30/": true
 }
