@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"7b1afdf99b936606cba87c0c18b32333dd975218f9afe3f74459c9ca6231b4a2\"",
+    "etag": "W/\"afff63aa6918bd8c77f859f9166c75e8ad941fb8cb93208ed54625b12da5e0cc\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/1_samuel_2_3/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_27_14/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -199,5 +199,6 @@
     "https://www.bibliaon.com/versiculo/hebreus_1_1-4/": true,
     "https://www.bibliaon.com/versiculo/marcos_10_45/": true,
     "https://www.bibliaon.com/versiculo/romanos_12_19/": true,
-    "https://www.bibliaon.com/versiculo/1_samuel_2_3/": true
+    "https://www.bibliaon.com/versiculo/1_samuel_2_3/": true,
+    "https://www.bibliaon.com/versiculo/salmos_27_14/": true
 }
