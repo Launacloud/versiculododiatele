@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"afff63aa6918bd8c77f859f9166c75e8ad941fb8cb93208ed54625b12da5e0cc\"",
+    "etag": "W/\"48b3f883b508b3648b1056c3e8986b32055273487b2710b1994d667fd6148775\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_27_14/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/galatas_5_19/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -200,5 +200,6 @@
     "https://www.bibliaon.com/versiculo/marcos_10_45/": true,
     "https://www.bibliaon.com/versiculo/romanos_12_19/": true,
     "https://www.bibliaon.com/versiculo/1_samuel_2_3/": true,
-    "https://www.bibliaon.com/versiculo/salmos_27_14/": true
+    "https://www.bibliaon.com/versiculo/salmos_27_14/": true,
+    "https://www.bibliaon.com/versiculo/galatas_5_19/": true
 }
