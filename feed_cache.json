@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"21f0773f91baab5068e19cbf0971982691065a0a55dbc0fbd45f17686c00c3e2\"",
+    "etag": "W/\"a0ee10e6d649b105e259c5d94d21dacb26144196fdaac636b90d0c04f4aefc4f\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/genesis_1_27/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/proverbios_11_16/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -202,5 +202,6 @@
     "https://www.bibliaon.com/versiculo/1_samuel_2_3/": true,
     "https://www.bibliaon.com/versiculo/salmos_27_14/": true,
     "https://www.bibliaon.com/versiculo/galatas_5_19/": true,
-    "https://www.bibliaon.com/versiculo/genesis_1_27/": true
+    "https://www.bibliaon.com/versiculo/genesis_1_27/": true,
+    "https://www.bibliaon.com/versiculo/proverbios_11_16/": true
 }
