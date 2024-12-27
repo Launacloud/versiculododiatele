@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"a0ee10e6d649b105e259c5d94d21dacb26144196fdaac636b90d0c04f4aefc4f\"",
+    "etag": "W/\"4404db650a4c8cc7fb63ac295402f69d62f9ccd9812dc02badfa03471c8bdbf6\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/proverbios_11_16/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_46_10/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -203,5 +203,6 @@
     "https://www.bibliaon.com/versiculo/salmos_27_14/": true,
     "https://www.bibliaon.com/versiculo/galatas_5_19/": true,
     "https://www.bibliaon.com/versiculo/genesis_1_27/": true,
-    "https://www.bibliaon.com/versiculo/proverbios_11_16/": true
+    "https://www.bibliaon.com/versiculo/proverbios_11_16/": true,
+    "https://www.bibliaon.com/versiculo/salmos_46_10/": true
 }
