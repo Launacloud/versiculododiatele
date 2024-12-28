@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"4404db650a4c8cc7fb63ac295402f69d62f9ccd9812dc02badfa03471c8bdbf6\"",
+    "etag": "W/\"47d1fe98dc77653cf64911d6923254d55a1312b7cc05e038446c6910f7ca6985\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_46_10/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/ezequiel_36_26/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -204,5 +204,6 @@
     "https://www.bibliaon.com/versiculo/galatas_5_19/": true,
     "https://www.bibliaon.com/versiculo/genesis_1_27/": true,
     "https://www.bibliaon.com/versiculo/proverbios_11_16/": true,
-    "https://www.bibliaon.com/versiculo/salmos_46_10/": true
+    "https://www.bibliaon.com/versiculo/salmos_46_10/": true,
+    "https://www.bibliaon.com/versiculo/ezequiel_36_26/": true
 }
