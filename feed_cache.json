@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"bde954474fa779741f3507191445da3874b86ff9798175613f48bc79261bf919\"",
+    "etag": "W/\"c0fb863d6b0c59a433cd2a8d660f6ce0ba486f5dba0bd5aa311c04afd1d87b3e\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/2_timoteo_1_7/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/isaias_44_24/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -210,5 +210,6 @@
     "https://www.bibliaon.com/versiculo/galatas_4_4/": true,
     "https://www.bibliaon.com/versiculo/deuteronomio_1_21/": true,
     "https://www.bibliaon.com/versiculo/2_corintios_12_8-9/": true,
-    "https://www.bibliaon.com/versiculo/2_timoteo_1_7/": true
+    "https://www.bibliaon.com/versiculo/2_timoteo_1_7/": true,
+    "https://www.bibliaon.com/versiculo/isaias_44_24/": true
 }
