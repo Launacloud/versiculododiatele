@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"cc68866dacb78c75ddc52855f74a51aa8bb8d4b7cb564d27d59de8ad2a0b0b25\"",
+    "etag": "W/\"ae5db33a8166ec881ea19502cefe1b92243a8ddc5edb9298d2b35033bc523baf\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_100_4/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/1_joao_4_18/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -212,5 +212,6 @@
     "https://www.bibliaon.com/versiculo/2_corintios_12_8-9/": true,
     "https://www.bibliaon.com/versiculo/2_timoteo_1_7/": true,
     "https://www.bibliaon.com/versiculo/isaias_44_24/": true,
-    "https://www.bibliaon.com/versiculo/salmos_100_4/": true
+    "https://www.bibliaon.com/versiculo/salmos_100_4/": true,
+    "https://www.bibliaon.com/versiculo/1_joao_4_18/": true
 }
