@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"ae5db33a8166ec881ea19502cefe1b92243a8ddc5edb9298d2b35033bc523baf\"",
+    "etag": "W/\"68bb91cbb74d8acd332f805040384f93673529fc68e504e1c45459f93ed09f54\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/1_joao_4_18/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_30_5/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -213,5 +213,6 @@
     "https://www.bibliaon.com/versiculo/2_timoteo_1_7/": true,
     "https://www.bibliaon.com/versiculo/isaias_44_24/": true,
     "https://www.bibliaon.com/versiculo/salmos_100_4/": true,
-    "https://www.bibliaon.com/versiculo/1_joao_4_18/": true
+    "https://www.bibliaon.com/versiculo/1_joao_4_18/": true,
+    "https://www.bibliaon.com/versiculo/salmos_30_5/": true
 }
