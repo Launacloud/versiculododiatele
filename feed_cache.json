@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"68bb91cbb74d8acd332f805040384f93673529fc68e504e1c45459f93ed09f54\"",
+    "etag": "W/\"19eb3fa0e104207cf3b9cddea95e3f0a7b29a59431cfdfc310f4a38d154c10fd\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_30_5/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_30_2-3/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -214,5 +214,6 @@
     "https://www.bibliaon.com/versiculo/isaias_44_24/": true,
     "https://www.bibliaon.com/versiculo/salmos_100_4/": true,
     "https://www.bibliaon.com/versiculo/1_joao_4_18/": true,
-    "https://www.bibliaon.com/versiculo/salmos_30_5/": true
+    "https://www.bibliaon.com/versiculo/salmos_30_5/": true,
+    "https://www.bibliaon.com/versiculo/salmos_30_2-3/": true
 }
