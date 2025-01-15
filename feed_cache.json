@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"b8874e13bfac51fdf4128ec9d34cadaca1a92475e448bcd20da309a899f83ce8\"",
+    "etag": "W/\"ed7b945e27152908989f0fa6ee02b2cedf6ff2cab0d5954227dee3c25486c4df\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/galatas_2_20/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/mateus_16_26/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -217,5 +217,6 @@
     "https://www.bibliaon.com/versiculo/salmos_30_5/": true,
     "https://www.bibliaon.com/versiculo/salmos_30_2-3/": true,
     "https://www.bibliaon.com/versiculo/mateus_6_9-13/": true,
-    "https://www.bibliaon.com/versiculo/galatas_2_20/": true
+    "https://www.bibliaon.com/versiculo/galatas_2_20/": true,
+    "https://www.bibliaon.com/versiculo/mateus_16_26/": true
 }
