@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"d7325a3db7708697954ff4a21669ef45a1456cad6b2cf2b66a43d0be3a67432c\"",
+    "etag": "W/\"0dd803605f2d17da52952e8c92641b4ff92e84429e9bc26d5240e783a883b4f4\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_37_11/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/ezequiel_34_26/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -225,5 +225,6 @@
     "https://www.bibliaon.com/versiculo/filipenses_3_13-14/": true,
     "https://www.bibliaon.com/versiculo/salmos_27_7-8/": true,
     "https://www.bibliaon.com/versiculo/mateus_11_28-30/": true,
-    "https://www.bibliaon.com/versiculo/salmos_37_11/": true
+    "https://www.bibliaon.com/versiculo/salmos_37_11/": true,
+    "https://www.bibliaon.com/versiculo/ezequiel_34_26/": true
 }
