@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"67d9334dadee258b95f894dc366e75822dc6e398cb3a9d3018372cec65418eb8\"",
+    "etag": "W/\"3290fd664dd6aa7a4368571d2d949e8c7f355f42bbe8934412ff85826b227c1d\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/genesis_1_24-26/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/romanos_12_12/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -229,5 +229,6 @@
     "https://www.bibliaon.com/versiculo/ezequiel_34_26/": true,
     "https://www.bibliaon.com/versiculo/isaias_22_22/": true,
     "https://www.bibliaon.com/versiculo/jonas_2_7/": true,
-    "https://www.bibliaon.com/versiculo/genesis_1_24-26/": true
+    "https://www.bibliaon.com/versiculo/genesis_1_24-26/": true,
+    "https://www.bibliaon.com/versiculo/romanos_12_12/": true
 }
