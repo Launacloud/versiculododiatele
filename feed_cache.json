@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"016f64306b0598e8a54495e13ec533eec6218fa79045202ddfd518ac2ed1ab96\"",
+    "etag": "W/\"7c0575c08ebf9fa60d1521117b8a24f7592219d5c812a383cdab979814f9c6ae\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/salmos_2_11/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/galatas_5_1/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -238,5 +238,6 @@
     "https://www.bibliaon.com/versiculo/salmos_126_5/": true,
     "https://www.bibliaon.com/versiculo/joel_2_12/": true,
     "https://www.bibliaon.com/versiculo/atos_dos_apostolos_2_42/": true,
-    "https://www.bibliaon.com/versiculo/salmos_2_11/": true
+    "https://www.bibliaon.com/versiculo/salmos_2_11/": true,
+    "https://www.bibliaon.com/versiculo/galatas_5_1/": true
 }
