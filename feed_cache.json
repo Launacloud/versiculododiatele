@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"b10df85b0042fdd53fd4769874be1f826d87331b5ff2dbc40bc930a577ffbf72\"",
+    "etag": "W/\"04fe4997bd68e218c50ef7890fd79dfe416e1b3bae236b9d12915d2d0c765393\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/josue_1_8/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/efesios_2_8/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -242,5 +242,6 @@
     "https://www.bibliaon.com/versiculo/galatas_5_1/": true,
     "https://www.bibliaon.com/versiculo/mateus_11_28/": true,
     "https://www.bibliaon.com/versiculo/jeremias_17_10/": true,
-    "https://www.bibliaon.com/versiculo/josue_1_8/": true
+    "https://www.bibliaon.com/versiculo/josue_1_8/": true,
+    "https://www.bibliaon.com/versiculo/efesios_2_8/": true
 }
