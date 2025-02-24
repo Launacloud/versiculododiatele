@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"0f1230aeb8dddbb77ced2eebbae83815b4cbac140365035501d2ad93d856fe84\"",
+    "etag": "W/\"62a9394be2c185fcb5f476efe103708d50b84bbe4e287950ab8a6401eb6fda3a\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/1_cronicas_29_12/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/deuteronomio_4_31/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -244,5 +244,6 @@
     "https://www.bibliaon.com/versiculo/jeremias_17_10/": true,
     "https://www.bibliaon.com/versiculo/josue_1_8/": true,
     "https://www.bibliaon.com/versiculo/efesios_2_8/": true,
-    "https://www.bibliaon.com/versiculo/1_cronicas_29_12/": true
+    "https://www.bibliaon.com/versiculo/1_cronicas_29_12/": true,
+    "https://www.bibliaon.com/versiculo/deuteronomio_4_31/": true
 }
