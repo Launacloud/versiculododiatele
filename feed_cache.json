@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"97f77d42092d0157ca80e1c66c500ad92c25694fdf16c8461fb99f21139e12ac\"",
+    "etag": "W/\"3ff6b8ba3e964368f9b1521276950e1705ab763d9ca08ca8553f965c93ce9b80\"",
     "modified": "",
-    "last_entry_id": "https://www.bibliaon.com/versiculo/2_corintios_4_6/",
+    "last_entry_id": "https://www.bibliaon.com/versiculo/colossenses_3_1/",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -248,5 +248,6 @@
     "https://www.bibliaon.com/versiculo/deuteronomio_4_31/": true,
     "https://www.bibliaon.com/versiculo/hebreus_11_6/": true,
     "https://www.bibliaon.com/versiculo/tiago_4_7/": true,
-    "https://www.bibliaon.com/versiculo/2_corintios_4_6/": true
+    "https://www.bibliaon.com/versiculo/2_corintios_4_6/": true,
+    "https://www.bibliaon.com/versiculo/colossenses_3_1/": true
 }
