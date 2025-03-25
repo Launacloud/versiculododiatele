@@ -27,11 +27,6 @@ jobs:
         pip install requests feedparser beautifulsoup4
 
     - name: Run Python script
-      run: |
-        python generate_feeds.py | tee output.log  # Run and capture logs to output.log
-      shell: bash
-
-    - name: Run Python script for Telegram
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
@@ -43,36 +38,3 @@ jobs:
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-
-    - name: Stash unstaged changes (if any)
-      run: |
-        if [[ `git status --porcelain` ]]; then
-          git stash --include-untracked
-        fi
-
-    - name: Pull latest changes with rebase
-      run: |
-        git pull --rebase origin main
-
-    - name: Apply stashed changes (if any)
-      run: |
-        if git stash list | grep -q 'stash@{0}'; then
-          git stash pop
-        fi
-
-    - name: Add output.log to commit
-      run: |
-        git add output.log  # Add output.log to commit
-        git add feed_cache.json  # Ensure feed_cache.json is added as well
-        git status  # Show status to confirm added files
-
-    - name: Commit changes
-      run: |
-        if [[ `git status --porcelain` ]]; then
-          git commit -m "Update and Commit Feed Cache"
-          git push origin main
-        else
-          echo "No changes to commit"
-        fi
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
