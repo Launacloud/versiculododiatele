@@ -1,7 +1,7 @@
 {
-    "etag": "W/\"07ddafe592c5586624b2c3ecb4e51259002f7739a7b1c5b65053f005e189d9ab\"",
+    "etag": "W/\"6ef8abdc75bc8ccdb5ec81d7560c4ce6d87353fce0ae3197a28c856ef7780c91\"",
     "modified": "",
-    "last_entry_id": "8c34b7da68e8ee344ee99e21f680605c",
+    "last_entry_id": "3a9fed5bbaede3d84bd151374ab61ec2",
     "https://www.bibliaon.com/versiculo/salmos_37_5/": true,
     "https://www.bibliaon.com/versiculo/galatas_3_26/": true,
     "https://www.bibliaon.com/versiculo/1_corintios_13_12/": true,
@@ -428,5 +428,6 @@
     "180afc9d5c64d1c8bda13f0fdcdde01d": true,
     "ff25d5bccff6a3ac1b9585239aeb66b9": true,
     "ddfd1702fc2990649c478110b8201790": true,
-    "8c34b7da68e8ee344ee99e21f680605c": true
+    "8c34b7da68e8ee344ee99e21f680605c": true,
+    "3a9fed5bbaede3d84bd151374ab61ec2": true
 }
